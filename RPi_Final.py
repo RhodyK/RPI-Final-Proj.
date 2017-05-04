@@ -64,6 +64,9 @@ class Game(Canvas):
             elif(ansvar.get() == 4):
                 testvar = "Ans 4"
             print testvar
+        
+        def penalize(self):
+                
 
 atext = "placeholder a"
 btext = "placeholder b"
@@ -73,6 +76,7 @@ testvar = ""
 window = Tk()
 ansvar = IntVar()
 
+penalty = 0
 questdict = {1:3, 2:2, 3:4, 4:1}
 question1 = []
 question2 = []
