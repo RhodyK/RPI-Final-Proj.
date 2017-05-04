@@ -65,7 +65,20 @@ class Game(Canvas):
                 testvar = "Ans 4"
             print testvar
         
+        def score(self):
+                i = 0
+                timer.append(i)
+                while running == True:
+                        timer.remove(i)
+                        sleep(1)
+                        i += 1
+                        timer.append(i)
+                        print timer
+                
+               
+                                
         def penalize(self):
+                pass
                 
 
 atext = "placeholder a"
@@ -77,6 +90,10 @@ window = Tk()
 ansvar = IntVar()
 
 penalty = 0
+running = True
+score = 
+timer = []
+
 questdict = {1:3, 2:2, 3:4, 4:1}
 question1 = []
 question2 = []
