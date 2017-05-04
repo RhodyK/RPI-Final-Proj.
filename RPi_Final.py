@@ -73,7 +73,8 @@ class Game(Canvas):
                         sleep(1)
                         i += 1
                         timer.append(i)
-                        print timer
+                print timer
+                break
                 
                
                                 
