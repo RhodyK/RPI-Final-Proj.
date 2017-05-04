@@ -91,7 +91,7 @@ ansvar = IntVar()
 
 penalty = 0
 running = True
-score = 
+score = score()
 timer = []
 
 questdict = {1:3, 2:2, 3:4, 4:1}
