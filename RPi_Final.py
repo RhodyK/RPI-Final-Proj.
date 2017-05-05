@@ -52,7 +52,15 @@ class Game(Canvas):
                 pass
 
         def timerstuff(self):
-                pass
+                i = 0
+                timer.append(i)
+                while running == True:
+                        timer.remove(i)
+                        sleep(1)
+                        i += 1
+                        timer.append(i)
+                print timer
+                break
         
         def checkAns(self):
             if(ansvar.get() == 1):
@@ -64,19 +72,6 @@ class Game(Canvas):
             elif(ansvar.get() == 4):
                 testvar = "Ans 4"
             print testvar
-        
-        def score(self):
-                i = 0
-                timer.append(i)
-                while running == True:
-                        timer.remove(i)
-                        sleep(1)
-                        i += 1
-                        timer.append(i)
-                print timer
-                break
-                
-               
                                 
         def penalize(self):
                 pass
