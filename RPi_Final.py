@@ -29,8 +29,6 @@ class Game(Canvas):
                              '..../---/.-- --/..-/-.-./.... -/../--/. -../---/./... .- .../..-/-. .-./.-/-.-- -/.-/-.-/. -/--- -/.-./.-/...-/./.-.. -/--- ./.-/.-./-/....', # Question 2, [How much time does a sun ray take to travel to Earth? - 8 minutes]
                              '--/../.-../-.-/-.-- .--/.-/-.-- -.../.-../.-/-.-./-.- ..../---/.-../. -../../.../-/.-/-./-.-./. ../-. .-../../--./..../- -.--/./.-/.-./...', # Question 3, [Milky Way black hole distance in light years? - 27,000 light years]
                              '.--/..../.-/- ../... -/..../. .../..-/-. --/---/.../-/.-../-.-- --/.-/-../. ---/..-.'] # Question 4, [What is the sun mostly made of? - Hydrogen]
-
-                self.questions = ['.','-','.','-']
                 
                 # Dict for the times of each dot and dash
                 self.morse = {'-':UNIT*3, '.':UNIT}
